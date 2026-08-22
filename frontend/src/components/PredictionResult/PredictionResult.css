@@ -1,0 +1,23 @@
+.prediction-result {
+  text-align: center;
+}
+
+.prediction-value {
+  font-size: 30px;
+  font-weight: 500;
+  margin: 12px 0 0;
+  color: var(--accent-teal-light);
+}
+
+.prediction-diff {
+  font-size: 12px;
+  margin: 6px 0 0;
+}
+
+.prediction-diff.down {
+  color: var(--accent-red);
+}
+
+.prediction-diff.up {
+  color: var(--accent-teal-light);
+}

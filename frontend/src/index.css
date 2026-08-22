@@ -1,0 +1,35 @@
+:root {
+  --bg-page: #0d1117;
+  --bg-card: #151b23;
+  --bg-input: #0d1117;
+  --border-color: #2a3038;
+  --text-primary: #e6e8eb;
+  --text-secondary: #8b939b;
+  --text-muted: #5c636b;
+  --accent-teal: #1D9E75;
+  --accent-teal-light: #5DCAA5;
+  --accent-amber: #BA7517;
+  --accent-amber-light: #EF9F27;
+  --accent-red: #E24B4A;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg-page);
+  color: var(--text-primary);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.app-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 20px 16px 60px;
+}
+
+input, button {
+  font-family: inherit;
+}
