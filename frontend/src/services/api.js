@@ -13,3 +13,5 @@ export async function predictConsumption(features) {
 
   return response.json();
 }
+
+
